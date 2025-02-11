@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.MapGet("/health", () => Results.Ok("Smart Order Api is running"));
+app.MapGet("/health", () => Results.Ok("SmartOrder is running"));
 
 app.Run();
 
